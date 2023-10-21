@@ -487,6 +487,7 @@
     margin-top: 60vw;
     margin-left: 30vw;
   }
+  
 
   .handy-photos {
     display: flex;
@@ -531,11 +532,18 @@
     color: inherit;
   }
 }
-@media (max-width: 400px) {
+@media (max-width: 600px) {
   .handy-footer {
     font-size: 15px;
   }
+  .handy-eu img{
+    width: 30vw;
+    margin-top: 70vw;
+    margin-left: 30vw;
+  }
 }
+
+
 
 
 
