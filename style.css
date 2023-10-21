@@ -364,6 +364,7 @@
     font-size: 32px;
     margin-bottom:30px;
     text-decoration:none;
+    margin-left: -10vw;
   }
   #menu a:hover {
     color: rgb(163, 30, 30)
@@ -536,14 +537,8 @@
   .handy-footer {
     font-size: 15px;
   }
-  .handy-eu img{
-    width: 30vw;
-    margin-top: 70vw;
-    margin-left: 30vw;
-  }
-  .handy-aboutme {
-    margin-top: 285vw;
-  }
+ 
+ 
 }
 
 
