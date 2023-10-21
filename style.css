@@ -532,7 +532,7 @@
     color: inherit;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 900px) {
   .handy-footer {
     font-size: 15px;
   }
