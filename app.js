@@ -79,21 +79,14 @@ if (window.matchMedia("(min-width: 1200px)").matches)  {
         // Get the current scroll position
         const scrollPosition = (window.scrollY / 10) - 10;
     
-        if (scrollPosition < 0) {
-          firstLine.style.left = scrollPosition + 1.5 + 'vw';
-        } else if (scrollPosition >= 0 && scrollPosition < secondIndex) {
-          secondLine.style.left = 12 + 'vw';
-        } else if (scrollPosition >= secondIndex && scrollPosition < 9) {
-          const scrollIndex = scrollPosition - secondIndex;
-          secondLine.style.left = -scrollIndex + 12 + 'vw';
-          console.log(scrollIndex);
-          if (scrollIndex <= 0) {
-            secondLine.style.left = 6 + 'vw';
-            
-          }
+        if (scrollPosition > 0 && scrollPosition < 10) {
+            firstLine.style.opacity = 1;
+        }
+        else if (scrollPosition >= 10 && scrollPosition <= 30) {
+            secondLine.style.opacity = 1;
         }
 
-        if (scrollPosition > 30) {
+        else if (scrollPosition > 30) {
             thirdLine.style.opacity = 1;
         }
       });
