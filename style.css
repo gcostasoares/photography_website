@@ -282,7 +282,7 @@
     position: relative;
     z-index:2;
     position: fixed;
-    left: 10%;
+    left: 0;
   }
   #burger-menu span,
   #burger-menu span:before,
@@ -400,6 +400,20 @@
     font-size: 3.5vw;
     overflow: hidden;
   }
+  .scroll-down {
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10vw;
+    opacity: 1;
+    transition: opacity 0.5s;
+  }
+  .zeichen {
+ 
+    width: 100px;
+  }
   .handy-mission {
   
     overflow: hidden;
@@ -407,12 +421,12 @@
     color: #f39c12;
     text-transform: uppercase;
     font-family: "Playfair Display", serif;
-    margin-top: 30vw;
+    margin-top: 15vw;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
+   
    
   
   }
@@ -444,13 +458,43 @@
     transition: opacity 0.5s;
   }
 
+  .handy-rena {
+    width: 80vw;
+    opacity: 0;
+    transition: opacity 0.5s;
+    margin-top: 65vw;
+  }
+
+  .handy-aboutme {
+    font-family: "Playfair Display", serif;
+  
+      z-index: 4;
+      position: absolute;
+      color: #ecf0f1;
+      text-align: justify;
+      top: 0;
+      overflow-x: hidden;
+      white-space: pre-wrap;
+      white-space: -moz-pre-wrap;
+      white-space: -pre-wrap;
+      white-space: -o-pre-wrap;
+      word-wrap: break-word;
+      margin-top: 275vw;
+      width: 80vw;
+  }
+  .handy-eu img{
+    width: 30vw;
+    margin-top: 60vw;
+    margin-left: 30vw;
+  }
+
   .handy-photos {
     display: flex;
     align-items: ceneter;
     justify-content: center;
     flex-direction: column;
     width: 80vw;
-    margin-top: 80vw;
+    margin-top: 20vw;
     gap: 80px;
   }
   .handy-footer {
@@ -485,6 +529,11 @@
   .handy-footer a {
     text-decoration: none;
     color: inherit;
+  }
+}
+@media (max-width: 400px) {
+  .handy-footer {
+    font-size: 15px;
   }
 }
 
