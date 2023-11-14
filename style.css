@@ -263,6 +263,7 @@
     .telefone {
       margin-bottom: 80px;
     }
+  
 
 @media (max-width: 1200px) {
  
@@ -478,7 +479,7 @@
       position: absolute;
       color: #ecf0f1;
       text-align: justify;
-      top: 70px;
+      top: 0;
       overflow-x: hidden;
       white-space: pre-wrap;
       white-space: -moz-pre-wrap;
@@ -490,14 +491,14 @@
   }
   .handy-eu img{
     width: 30vw;
-    margin-top: 80vw;
+    margin-top: 50vw;
     margin-left: 30vw;
   }
   
 
   .handy-photos {
     display: flex;
-    align-items: ceneter;
+    
     justify-content: center;
     flex-direction: column;
     width: 80vw;
@@ -534,11 +535,32 @@
     color: inherit;
   }
 }
-@media (max-width: 900px) {
+@media (max-width: 700px) {
   .handy-footer {
     font-size: 15px;
   }
- 
+  .handy-aboutme {
+    font-family: "Playfair Display", serif;
+  
+      z-index: 4;
+      position: absolute;
+      color: #ecf0f1;
+      text-align: justify;
+      top: 120px;
+      overflow-x: hidden;
+      white-space: pre-wrap;
+      white-space: -moz-pre-wrap;
+      white-space: -pre-wrap;
+      white-space: -o-pre-wrap;
+      word-wrap: break-word;
+      margin-top: 275vw;
+      width: 80vw;
+  }
+  .handy-eu img{
+    width: 30vw;
+    margin-top: 100vw;
+    margin-left: 30vw;
+  }
  
 }
 .datenschutz-impressum {
