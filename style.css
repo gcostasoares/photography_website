@@ -478,7 +478,7 @@
       position: absolute;
       color: #ecf0f1;
       text-align: justify;
-      top: 50px;
+      top: 70px;
       overflow-x: hidden;
       white-space: pre-wrap;
       white-space: -moz-pre-wrap;
@@ -490,7 +490,7 @@
   }
   .handy-eu img{
     width: 30vw;
-    margin-top: 60vw;
+    margin-top: 80vw;
     margin-left: 30vw;
   }
   
