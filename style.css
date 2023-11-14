@@ -225,7 +225,7 @@
       left: 840vh; /* Add 30vh to the left position */
     }
 
-    footer {
+    .footer {
     
       font-family: "Playfair Display", serif;
       width: auto;
@@ -247,6 +247,7 @@
       flex-direction: column;
       line-height: 3px;
     }
+  
 
 
     
@@ -258,6 +259,9 @@
     .adress,
     .contact {
       margin-bottom: 2px;
+    }
+    .telefone {
+      margin-bottom: 80px;
     }
 
 @media (max-width: 1200px) {
@@ -474,7 +478,7 @@
       position: absolute;
       color: #ecf0f1;
       text-align: justify;
-      top: 0;
+      top: 50px;
       overflow-x: hidden;
       white-space: pre-wrap;
       white-space: -moz-pre-wrap;
@@ -513,11 +517,7 @@
     left: 0;
     font-size: 20px;
     overflow: hidden;
-    white-space: pre-wrap;
-    white-space: -moz-pre-wrap;
-    white-space: -pre-wrap;
-    white-space: -o-pre-wrap;
-    word-wrap: break-word;
+  
 
     text-decoration: none;
     display: flex;
@@ -540,6 +540,13 @@
   }
  
  
+}
+.datenschutz-impressum {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  align-items: center;
+  gap: 40px;
 }
 
 
