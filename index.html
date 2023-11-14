@@ -1,235 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Prata&family=Roboto&display=swap" rel="stylesheet">
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Festive&family=Merriweather:wght@300&family=Quattrocento&family=Rock+Salt&family=Sedgwick+Ave+Display&family=Sofia+Sans&family=Unna&display=swap');
-  </style>
-  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
-    <script>
-        (function() {
-          emailjs.init("FtSdndw9qUmT_GCG_");
-      })();
-  </script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Abril+Fatface&family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel='stylesheet' href='https://unpkg.com/locomotive-scroll@4.0.6/dist/locomotive-scroll.min.css' />
+    <link rel="stylesheet" href="style.css">
+    <title>Gabriel Costa Soares Photography</title>
+</head>
+<body>
+
+   <div class="handy_version">
   
-  <body>
-    
-    <!---Menu--->
-
-    <section class="menu" id="menu">
-      <div class="navbar">
-        <ul>
-          <li><a href="#logo" class="logo">Gabriel Costa Soares</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#aboutme">Über Gabriel</a></li>
-          <li><a href="#kontakt">Kontakt</a></li>
-        </ul>
-      </div>
-
-    </section>
-
-    <section class="burger_menu" id="burger_menu">
-      <div class="btn">
-        <div class="btn_burger"></div>
-      </div>
-    </section>
-
-    <section class="background_burger">
-      <div class="new_menu" id="new_menu">
-      </div>
-    </section>
-
-    <section>
-      <div class="menu_items_burger" id="menu_items">
-        <ul class="items"  id = "items">
-          <li><a href="#logo">Home</a></li>
-          <li><a href="#aboutme">Über Gabriel</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#kontakt">Kontakt</a></li>
-        </ul>
-      </div>
-    </section>
-
-    <section class="home" id="logo">
-
-      <div class="frontpage" id="frontpage">
-
-          <div class="front">
-            <p class = 'gabriel' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">Gabriel</p>
-            <p class = 'costasoares' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">Costa</p>
-            <p class = 'costasoares' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">Soares</p>
-          </div>
-
-          <div class="rotating_text">
-              <div class="content">
-                <svg viewBox="0 0 500 500">  
-                <defs>
-                <path id="textcircle" d="M250,400
-                             a150,150 0 0,1 0,-300a150,150 0 0,1 0,300Z" transform="rotate(1,150,250)" />
-                </defs>
-                <g class="textcircle">
-                <text textLength="0">
-                  <textPath 
-                            xlink:href="#textcircle" 
-                            textLength="940">
-                            &nbspwebentwicklung || webdesign || fotografie ||
-                  </textPath>
-                  </text>
-                  </g>
-                  </svg>
-              </div>
-          </div>
-
-      </div>
-
-    </section>
-
-
-    <section class="aboutme" id="aboutme">
-    
-      <div class="aboutme_container">
-        <div class="about_gabriel">
-          <div class="head_title">
-            <h1 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700">about</h1>
-            <h1 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700">gabriel</h1>
-            <div class="line" data-aos="fade-left" data-aos-duration="1000"></div>
-          </div> 
+    <section class="burger">
+        <div id="burger-menu">
+            <span></span>
         </div>
-      </div>
-
-      <div class="photo_container">
-        <div class="photo">
-          <img src="eu.jpg" alt="">
-        </div>
-
-
-        <div class="photo_title">
-          <h1>Frontend Entwickler</h1>
-          <h1>& Fotograf</h1>
-        </div>
-
-    </div>
-   
-     
-    <div class="text_aboutme">
-      <div class="paragraph">
-        <p>Als <span data-aos="fade-up" data-aos-duration="500" data-aos-delay="300">Webentwickler</span> habe ich meine Leidenschaft zum Beruf gemacht und widme mich mit großer Präzision der Entwicklung eleganter und benutzerfreundlicher <span data-aos="fade-up" data-aos-duration="500" data-aos-delay="300">Websites und Webanwendungen</span>. Mein Schwerpunkt liegt auf der <span data-aos="fade-up" data-aos-duration="500" data-aos-delay="300">Implementierung maßgeschneiderter Lösungen</span>, die die spezifischen Anforderungen und Zielsetzungen meiner Kunden akkurat abbilden.</p>
-   
-       
-      </div>
-    </div>
-    
-    
-
-  </section>
-
-
-
-    <section class="portfolio" id="portfolio">
-
-      <ul class="work_list">
-        <li class="project">
-          <div class="website1"></div>
-          <p>Meine eigene Fotografie-Website ist horizontal konzipiert und präsentiert mein Portfolio als Porträtfotograf. Dieses Projekt markiert einen meiner ersten Schritte als Webentwickler, bei dem moderne CSS-Konzepte verwendet wurden, um sicherzustellen, dass das Design harmonisch mit den Bildern verschmilzt.</h2>
-        </li>
-        <li class="project">
-          <div class="website2"></div>
-          <p>Der brasilianische Bundesstaat Espírito Santo zählt zu den bedeutendsten Kaffeeherstellern Brasiliens und beheimatet eine erfolgreiche Kaffeerösterei-Marke. Die Webseite wurde mit dem Ziel konzipiert, die Leidenschaft und Hingabe der Kaffeebauern dieser Region zu präsentieren.</h2>
-        </li>
-        <li class="project">
-          <div class="website3"></div>
-          <div class="end_project">
-          <p>Die Webseite für die systemische Coach Vanessa Gunia wurde mit dem Ziel entwickelt, eine freundliche und zugängliche Plattform für Menschen zu bieten, die sich für persönliche Entwicklung interessieren. Die Webseite soll eine rasche und einladende Botschaft vermitteln und potenziellen Interessenten in Sachen Selbstentwicklung eine herzliche Anlaufstelle bieten.</h2>
-          </div>
-        </li>
-      </ul>
-    </section>
-
-
-
-  <section class="form" id="form">
-
-    <div class="invitation">
-      <div class="perspective-text">
-        <div class="perspective-line">
-          <p></p>
-          <p>Let's</p>
-        </div>
-        <div class="perspective-line">
-          <p>Let's</p>
-          <p>Work</p>
-        </div>
-        <div class="perspective-line">
-          <p>Work</p>
-          <p class="together">&nbsp&nbspTogether</p>
-        </div>
-        <div class="perspective-line">
-          <p></p>
-          <p></p>
-        </div>
-      </div>
-    </div>
-
         
-    <form class="kontakt" id="kontakt" onsubmit="sendEmail(event)">
+        <div id="menu">
+            <ul id="ul-elements">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Me</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </section>
 
-      <div class="hallo">
-        <h1>¡HOLA!</h1>
-      </div>  
+    <section class="headline" id="headline">
+        <div class="handy-logo">
+            <div class="handy-logo1">
+                <h1>Gabriel Costa Soares</h1>
+            </div>
+            <div class="handy-logo2">
+                <h1>Photography</h1>
+            </div>
+            <div class="scroll-down" id="scroll-down">
+                <p>scroll down</p>
+                <img class="zeichen" src="./arrow_down_icon-icons.com_66707.png">
+            </div>
+        </div>
+        
+    </section>
 
-      <div class="form-control">  
-          <label id="username_label" for="username">ICH HEIßE</label>
-          <input type="text" placeholder="dein Name" id="username">
-          <small>Error message</small>
-      </div>
-
-      <div class="form-control">
-          <label id="email_label"  for="username">MEINE EMAIL</label>
-          <input type="email" placeholder="deine Emailadresse" id="email">
-          <small>Error message</small>
-      </div>
-
-      <div class="message">
-          <label>DAS IST MEINE NACHRICHT</label>
-          <textarea type="text" placeholder= "deine Nachricht"></textarea>
-      </div>
+    <section class="handy-mission">
+        <div class="firstline" id="firstline">
+            <p>Every Open</p>
+        </div>
+        <div class="secondline" id="secondline">
+            <p>Eye Is Not</p>
+        </div>
+        <div class="thirdline" id="thirdline" >
+            <p>Seeing</p>
+        </div>
+        
       
-        
-      <div class="sender">
-        <button type="submit">senden</button>
-      </div>
+    </section>
+    <img class="handy-rena" id="rena" src="./fotos/rena.JPG">
 
-    </form>
-
-
-  </section>
-
-  <div class="message-success" id="message-success">
-    <h1>Hurra! Deine Nachricht wurde erfolgreich abgeschickt! 😄 Ich freue mich darauf, bald von dir zu hören. Ich melde mich schnellstmöglich zurück!</h1>
-  </div>
-
-  <div class="message-error">
-    <h1>Oh nein! Etwas ist schiefgelaufen. Es tut mir leid für die Unannehmlichkeiten. Bitte versuche es erneut.</h1>
-  </div>
+    <div class="handy-aboutme" id="handy-aboutme">
+        <p>Moin, I'm Gabriel, a freelance photographer located in Hamburg. My goal is to infuse my work with intensity and dynamism. A significant portion of my portfolio highlights the dedication and enthusiasm of actors, dancers, models, painters, and musicians to their craft. I am a strong proponent of spontaneity and complete creative freedom in photography. A truly impactful photograph can only be achieved when the photographer forges an emotional connection with their subject. It's through this connection that a photo can be deemed 'authentic'</p>
+    </div>
+    <div class="handy-eu">
+        <img class="profil" src="./fotos/eu.jpg">
+    </div>
+    
+    <section>
+        <div class="handy-photos">
+            <img data-aos="fade-up" data-aos-duration="2000" class="handy-oxa" src="./fotos/oxa.JPG">
+            <img data-aos="fade-up" data-aos-duration="2000" class="handy-zoe" src="./fotos/zoe.JPG">
+            <img data-aos="fade-up" data-aos-duration="2000" class="handy-capoeira" src="./fotos/capoeira.JPG">
+            <img data-aos="fade-up" data-aos-duration="2000" class="handy-hannah" src="./fotos/hannah.JPG">
+            <img data-aos="fade-up" data-aos-duration="2000" class="handy-valery" src="./fotos/valerya.JPG">
+            <img data-aos="fade-up" data-aos-duration="2000" class="handy-schweizer" src="./fotos/schweizer.JPG">
+            <img data-aos="fade-up" data-aos-duration="2000" class="handy-lukas_spring" src="./fotos/lukas_spring.JPG">
+            <img data-aos="fade-up" data-aos-duration="2000" class="handy-lukas" src="./fotos/lukas.JPG">
+            <img data-aos="fade-up" data-aos-duration="2000" class="handy-ed" src="./fotos/ed.JPG">
+            <img data-aos="fade-up" data-aos-duration="2000" class="handy-asgeir" src="./fotos/asgeir.JPG">
+            
+        </div>
+        <footer class="handy-footer">
+            <p>Feel free to reach out</p>
+            <p>Drop me a "hello" at:  <a href="mailto:ga.costasoares@gmail.com">ga.costasoares@gmail.com</a></p>
+            <p>Send a Message: +49 157 8651099</p>
+         </footer>
+    </section>
+    
  
-
-
-    <script src="app.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-    <script>AOS.init();</script>
-   
     
 
-  </body>
+
+   </div>
 
 
-  </html>
 
+   
+    <div class='scroll-animations-example' data-scroll-container>
+        <div class='scrollsection' data-scroll-section>
+
+            <div class="logo">
+                <div class="logo1" data-scroll data-scroll-direction = "vertical" data-scroll-speed="4">
+                    <h1>Gabriel Costa Soares</h1>
+                </div>
+                <div class="logo2" data-scroll data-scroll-direction = "vertical" data-scroll-speed="8">
+                    <h1>Photography</h1>
+                </div>
+            </div>
+
+         
+
+
+
+            <div class="mission">
+                <div class="line1" data-scroll data-scroll-speed="2">
+                    <p>Every Open</p>
+                </div>
+                <div class="line2" data-scroll data-scroll-speed="1">
+                    <p>Eye Is Not</p>
+                </div>
+                <div class="line3" data-scroll data-scroll-speed="4">
+                    <p>Seeing</p>
+                </div>
+            </div>
+
+            
+            <div class="cover_picure">
+                <img class='image' src="./fotos/valerya.JPG">
+             </div>
+
+             <div class="presentation">
+                <div class="aboutme">
+                    <p>Moin, I'm Gabriel, a freelance photographer located in Hamburg. My goal is to infuse my work with intensity and dynamism. A significant portion of my portfolio highlights the dedication and enthusiasm of actors, dancers, models, painters, and musicians to their craft. I am a strong proponent of spontaneity and complete creative freedom in photography. A truly impactful photograph can only be achieved when the photographer forges an emotional connection with their subject. It's through this connection that a photo can be deemed 'authentic'</p>
+                </div>
+
+                <div class="profil_photo">
+                    <img class="profil" src="./fotos/eu.jpg">
+                </div>
+            </div>
+
+            <div class="photos">
+                <img class="oxa" data-scroll data-scroll-speed="5" src="./fotos/oxa.JPG">
+                <img class="zoe" data-scroll data-scroll-speed="3" src="./fotos/zoe.JPG">
+                <img class="capoeira" data-scroll data-scroll-speed ="5" src="./fotos/capoeira.JPG">
+                <img class="hannah" data-scroll data-scroll-speed ="3" src="./fotos/hannah.JPG">
+                <img class="rena" data-scroll data-scroll-speed ="5" src="./fotos/rena.JPG">
+                <img class="schweizer" data-scroll data-scroll-speed ="3" src="./fotos/schweizer.JPG">
+                <img class="lukas_spring" data-scroll data-scroll-speed="5" src="./fotos/lukas_spring.JPG">
+                <img class="lukas" data-scroll data-scroll-speed="3" src="./fotos/lukas.JPG">
+                <img class="ed" data-scroll data-scroll-speed="3" src="./fotos/ed.JPG">
+                <img class="asgeir" data-scroll data-scroll-speed="5" src="./fotos/asgeir.JPG">
+             </div>
+
+             <footer class="footer">
+                <p>Feel free to reach out</p>
+                <p>Drop me a "hello" at:  <a href="mailto:ga.costasoares@gmail.com">ga.costasoares@gmail.com</a></p>
+                <p>Send a Message: +49 157 8651099</p>
+             </footer>
+
+             
+
+            </div>
+        </div>
+
+
+            
+    
+    
+
+<script src='https://unpkg.com/locomotive-scroll@4.0.6/dist/locomotive-scroll.min.js'></script>
+<script src="app.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script> AOS.init();
+ </script>
+</body>
+</html>
